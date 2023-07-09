@@ -12,44 +12,24 @@
   "types": "./dist/fuse.d.ts",
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.esm.mjs"
-      },
-      "require": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.common.cjs"
-      }
+      "types": "./dist/fuse.d.ts",
+      "import": "./dist/fuse.esm.mjs",
+      "require": "./dist/fuse.common.cjs"
     },
     "./min": {
-      "import": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.esm.min.mjs"
-      },
-      "require": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.common.min.cjs"
-      }
+      "types": "./dist/fuse.d.ts",
+      "import": "./dist/fuse.esm.min.mjs",
+      "require": "./dist/fuse.common.min.cjs"
     },
     "./basic": {
-      "import": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.basic.esm.mjs"
-      },
-      "require": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.basic.common.cjs"
-      }
+      "types": "./dist/fuse.d.ts",
+      "import": "./dist/fuse.basic.esm.mjs",
+      "require": "./dist/fuse.basic.common.cjs"
     },
     "./min-basic": {
-      "import": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.basic.esm.min.mjs"
-      },
-      "require": {
-        "types": "./dist/fuse.d.ts",
-        "default": "./dist/fuse.basic.common.min.cjs"
-      }
+      "types": "./dist/fuse.d.ts",
+      "import": "./dist/fuse.basic.esm.min.mjs",
+      "require": "./dist/fuse.basic.common.min.cjs"
     }
   },
   "sideEffects": false,
