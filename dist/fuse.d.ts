@@ -1,5 +1,5 @@
 // Type definitions for Fuse.js v6.6.2
-// TypeScript v4.9.4
+// TypeScript v4.9.5
 declare class Fuse<T> {
   public constructor(
     list: ReadonlyArray<T>,
